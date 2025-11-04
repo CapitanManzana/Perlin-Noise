@@ -1,0 +1,12 @@
+#
+# Configuración de estilo para los editores que
+# fija la codificación de los archivos en UTF-8
+#
+
+root = true
+
+# Archivos de código de C/C++
+[*.{cpp,cc,c,hpp,hh,h,ixx}]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
